@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fullcycle.admin.catalogo.application.genre.retrive.list.ListGenreUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-27T15:01:29" hostname="damatta" time="0.494">
+  <properties/>
+  <testcase name="givenAValidQuery_whenCallsListGenreAndResultIsEmpty_shouldReturnGenres()" classname="com.fullcycle.admin.catalogo.application.genre.retrive.list.ListGenreUseCaseTest" time="0.45"/>
+  <testcase name="givenAValidQuery_whenCallsListGenreAndGatewayThrowsRandomError_shouldReturnException()" classname="com.fullcycle.admin.catalogo.application.genre.retrive.list.ListGenreUseCaseTest" time="0.005"/>
+  <testcase name="givenAValidQuery_whenCallsListGenre_shouldReturnGenres()" classname="com.fullcycle.admin.catalogo.application.genre.retrive.list.ListGenreUseCaseTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

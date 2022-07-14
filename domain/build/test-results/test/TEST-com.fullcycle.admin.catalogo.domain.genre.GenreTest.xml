@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fullcycle.admin.catalogo.domain.genre.GenreTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2022-06-20T18:28:57" hostname="damatta" time="0.056">
+  <properties/>
+  <testcase name="givenAValidGenre_whenCallUpdateWithNullName_shouldReceiveNoticationException()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.02"/>
+  <testcase name="givenAValidEmptyCategoriesGenre_whenCallAddCategoriesWithEmptyList_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidEmptyCategoriesGenre_whenCallAddCategory_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAnInvalidNullAsCategoryID_whenCallRemoveCategory_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenADeactiveGenre_whenCallActivate_shouldReceiveOk()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidEmptyCategoriesGenre_whenCallAddCategories_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidInactiveGenre_whenCallUpdateWithActivate_shouldReceiveGenreUpdated()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenInvalidEmptyName_whenCallNewGenreAndValidate_shouldReceiveAError()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.002"/>
+  <testcase name="givenAnInvalidNullAsCategoryID_whenCallAddCategory_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidGenreWithTwoCategories_whenCallRemoveCategory_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidGenre_whenCallUpdateWithNullCategories_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.002"/>
+  <testcase name="givenValidParams_whenCallNewGenre_shouldInstantiateAGenre()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.0"/>
+  <testcase name="givenAValidGenre_whenCallUpdateWithEmptyName_shouldReceiveNoticationException()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidActiveGenre_whenCallUpdateWithInactivate_shouldReceiveGenreUpdated()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAActiveGenre_whenCallDeactivate_shouldReceiveOk()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenAValidEmptyCategoriesGenre_whenCallAddCategoriesWithNullList_shouldReceiveOK()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenInvalidNullName_whenCallNewGenreAndValidate_shouldReceiveAError()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <testcase name="givenInvalidNameWithLengthGreaterThan255_whenCallNewGenreAndValidate_shouldReceiveAError()" classname="com.fullcycle.admin.catalogo.domain.genre.GenreTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
